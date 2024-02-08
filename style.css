@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+background-color: aqua;
+text-align: center;
+padding: 10px 20% ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.navbar ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.image-container img{
+    width: 500px;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar {
+        background-color: red;
+        justify-content: center;
+    }
+
+
+    .image-container img{
+        padding:10px 0;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
